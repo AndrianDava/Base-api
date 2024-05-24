@@ -51,5 +51,4 @@ app.use((err, req, res, next) => {
 
 app.listen(config.options.port, () => {
 console.log(chalk.cyan('Simple Rest API by @Irull2nd'))
-    anim('Server is running on http://localhost:' + config.options.port);
 });
